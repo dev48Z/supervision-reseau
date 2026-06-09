@@ -1,0 +1,14 @@
+name: test de validation
+
+on:
+  push:
+    branches: [ "main" ]
+ 
+
+jobs:
+  affichage-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Afficher le message de validation
+        run: echo "validation du projet xxxsupervision-réseau"
