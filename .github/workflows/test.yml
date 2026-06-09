@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Afficher le message de validation
-        run: echo "validation du projet xxxsupervision-réseau"
+        run: echo "validation du projet supervision-réseau"
